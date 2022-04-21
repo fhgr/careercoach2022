@@ -68,6 +68,6 @@ The published `.json` files contain annotations in the following format:
 2. `text`: the corresponding text representation as obtained by [inscriptis](https://github.com/weblyzard/inscriptis).
 3. `page_segments`: a dictionary of classified page segment with keys: `target_groups`, `course_contents`, `prerequisite`, `learning_objectives`, `certficates_and_degrees`. Each page segment contains another dictionary outlining its `surface_form`, `start` and `end` indices.
 5. `entities` optional further dictionaries that describe entities identified within the segments.
-   - each entity is described by `surface_form`, `start` and `end` indices, `type` and `id`. In addition entities _may_ contain the keys `wikidata`, `wikipedia` and `wikipedia_redirect` which refer to their URL in the corresponding knowledge sources.
+   - each entity is described by `surface_form`, `start` and `end` indices, `type` and `key`. In addition entities _may_ contain the keys `wikidata`, `wikipedia` and `wikipedia_redirect` which refer to their URL in the corresponding knowledge sources.
    - `type`: indicates the entity class (`skill`, `occupation`, `topic`, `position`, `school`, `industry`, `education`, or `degree`)
    - `key`: unique entity URL within the knowledge graph

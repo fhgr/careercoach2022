@@ -9,11 +9,11 @@ This repository contains the CareerCoach 2022 Dataset introduced in the article:
 ## Dataset partitions
 The dataset contains the following two partitions:
 
-1. Partition P1: 
+1. Partition P1 (segments): 
    - size: 169 documents
    - annotations: page segment (classification, start/end index, surface form)
    - supported tasks: T1 (page segment recognition), T2 (page segment classification)
-2. Partition P2:
+2. Partition P2 (entities):
    - size: 75 documents
    - annotations:
      - page segment (classification, start/end index, surface form)

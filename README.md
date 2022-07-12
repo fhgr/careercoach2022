@@ -2,7 +2,15 @@
 
 This repository contains the CareerCoach 2022 Dataset introduced in the article:
 
-*Weichselbraun, Albert, Waldvogel, Roger, Fraefel, Andreas, van Schie, Alexander and Kuntschik, Philipp. (2022). “Slot Filling for Extracting Reskilling and Upskilling Options from the Web”. Proceedings of the 27th International Conference on Natural Language & Information Systems, Valencia, Spain*
+*Weichselbraun, Albert, Waldvogel, Roger, Fraefel, Andreas, van Schie, Alexander and Kuntschik, Philipp. (2022). “Slot Filling for Extracting Reskilling and Upskilling Options from the Web”. Natural Language Processing and Information Systems (NLDB 2022), Lecture Notes in Computer Science, vol. 13286, [arXiv:2207.04862](https://arxiv.org/abs/2207.04862), DOI: [10.1007/978-3-031-08473-7_25](https://doi.org/10.1007/978-3-031-08473-7_25)*
+
+The gold standard is available for download in the NIF and JSON format, and draws upon documents from a corpus of over 99,000 education courses which have been retrieved from 488 different education providers.
+
+The corpus contains two partitions.:
+
+* **Partition (P1)** supports the **content extraction** (i.e., text segmentation and text segment classification) tasks and comprises 169 documents and gold standard annotations for page segments
+* **Partition (P2)** contains 75 documents with a significantly richer set of annotations that consider content extraction, entities and slots. It supports benchmarking knowledge extraction tasks such as **entity recognition**, **entity classification**, **entity linking**,  and **slot filling** on top of the content extraction task.
+
 
 # Dataset description
 
